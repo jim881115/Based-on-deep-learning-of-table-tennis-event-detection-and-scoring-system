@@ -18,11 +18,11 @@
 ## 系統架構
 系統架構圖:<br/>
 ![](https://i.imgur.com/SpbtqXd.png) <br/>
-* Ball Detection
+* Ball Detection <br/>
 　　透過類 VGG-16 style 的 ConNet 進行 Feature extraction，接著透過 DconvNet 所產生的特徵圖(Features map)進一步產生熱度圖(Heatmap)
-* Event Spotting
+* Event Spotting <br/>
 　　Event Spottoing 將會沿用 Ball Detection 所產生的特徵圖，以減少系統負擔且有著更加準確的事件判斷
-* Scoring Algorithm
+* Scoring Algorithm <br/>
 　　參考以下流程圖為判斷得分的演算法 <br/>
 ![](https://i.imgur.com/y0zVYHO.png)
 
